@@ -25,7 +25,7 @@ class AppServiceProvider extends ServiceProvider
     {
         if (\App::environment(['production']))
         {
-            \URL::forceSceme('https');
+            \URL::forceScema('https');
         }
     }
 }
